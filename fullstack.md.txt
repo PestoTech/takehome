@@ -1,0 +1,55 @@
+Assignment Title: Full-Stack Developer Challenge
+
+Introduction:
+You are tasked with building a simple task management application. The application will allow users to create, update, and delete tasks. Tasks should have a title, description, and a status (e.g., "To Do," "In Progress," "Done"). Users should also be able to view a list of tasks and filter them by status.
+
+If you are attempting this as Frontend(mobile/web) Assignment, feel free to use firebase for db and authentication.
+
+Front-End Requirements:
+
+    User Interface: Create a user-friendly interface for the task management application. It should have atleast the following components:
+        A form to create a new task with fields for title, description, and status.
+        A list of tasks with the ability to update the status or delete a task.
+        A filter or dropdown to filter tasks by status (e.g., "All," "To Do," "In Progress," "Done").
+
+You can be creative in adding additional features here.
+
+    User Experience: Implement smooth and responsive user interactions, including form validation to ensure that tasks cannot be created without a title. Use modern front-end technologies such as React, Angular, or Vue.js.
+
+    Styling: Style the application using CSS or a CSS preprocessor (e.g., SASS/SCSS). You can also use a CSS framework if preferred.
+
+    Responsive Design: Ensure that the application is responsive and works well on both desktop and mobile devices.
+
+Back-End Requirements:
+
+    API Development: Create a RESTful API to handle the CRUD (Create, Read, Update, Delete) operations for tasks. The API should be built using a back-end technology of your choice (e.g., Node.js with Express, Ruby on Rails, Django, etc.).
+
+    Data Storage: Implement a database to store task data. You can use any database system (e.g., PostgreSQL, MySQL, MongoDB) and set up the necessary data models to represent tasks.
+
+    Validation: Implement server-side validation to ensure that task data is valid before saving it to the database. Tasks must have a title and a valid status.
+
+    Error Handling: Properly handle errors, including sending appropriate error messages and status codes in response.
+
+General Requirements:
+
+    Code Quality: Write clean, well-documented, and maintainable code. Use coding best practices and conventions for the chosen programming language and framework.
+
+    Version Control: Use a version control system (e.g., Git) to track changes in your code and provide a Git repository for the assessment.
+
+    Testing: Write unit tests for critical parts of your application, such as API endpoints and data validation.
+
+    Security: Implement basic security measures to protect the application from common vulnerabilities.
+
+Bonus Features (Optional):
+
+You can implement additional features to make your project stand out:
+
+    User authentication and authorization to restrict access to tasks.
+    Task due dates and reminders.
+    Task sorting and searching capabilities.
+    User profiles with avatars.
+
+Submission:
+
+https://github.com/RV218/fullstack/tree/main/FullStackApp/my-react-app
+
